@@ -4,5 +4,5 @@ def is_palim(s):
             return False
 
     return True
-
-print(is_palim(input()))
+if __name__ == "__main__":
+    print(is_palim(input()))

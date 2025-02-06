@@ -5,4 +5,5 @@ def histogram(x):
         print()
 
 x = [4, 9, 7]
-histogram(x)
+if __name__ == "__main__":
+    histogram(x)
