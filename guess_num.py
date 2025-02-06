@@ -18,4 +18,5 @@ def guess():
             print(f"\nGood job, {name}! You guessed my number in {count} guesses!")
             break
 
-guess()
+if __name__ == "__main__":
+    guess()
